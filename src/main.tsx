@@ -3,7 +3,6 @@ import { createRoot } from 'react-dom/client'
 import { ThemeProvider } from './ThemeContext.tsx'
 import App from './App.tsx'
 import './index.css'
-import dotenv from 'dotenv';
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
     <ThemeProvider>
