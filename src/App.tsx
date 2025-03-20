@@ -23,8 +23,13 @@ function App() {
 
       <p className="text-md md:text-md mt-2">cs & math @ university of guelph</p>
 
-      <div className="mt-2">
+      <div className="flex mt-4 mb-6 space-x-4 text-sm md:text-sm">
+        <a href="https://www.linkedin.com/in/yousufmo/" >linkedin</a>
+        <a href="https://github.com/yousufmohi">github</a>
+      </div>
 
+      <div className="mt-2">
+      <h1 className={` ${darkMode ? "text-[#959290]" : "text-black"}  text-xl mt-6 mb-4 `}>Experience</h1>
       <div className="grid gap-4">
             <ExperienceItem
               title="software developer intern"
@@ -32,6 +37,7 @@ function App() {
               description={"worked on address validation tools and backend optimization"}
               languages={["JavaScript", "C#", ".NET"]}
               repoLink=""
+              range="Sep - Dec.2024"
             />
             <ExperienceItem
               title="web developer"
@@ -39,16 +45,18 @@ function App() {
               description={"website maintenance and designed new features"}
               languages={["JavaScript", "Python"]}
               repoLink=""
+              range="Jun - Aug.2024"
             />
           </div>
-        
+          <h1 className={` ${darkMode ? "text-[#959290]" : "text-black"}  text-xl mt-6 mb-4 `}>Projects</h1>
           <div className="grid gap-2">
             <ExperienceItem
               title="codestore"
-              description={"application which stores code snippets"}
+              description={"application for developers to store non-git worthy code snippets"}
               company=""
               languages={["React", "Nodejs", "MongoDB"]}
               repoLink="https://github.com/yousufmohi/codestore"
+              range=""
             />
             <ExperienceItem
               title="haven"
@@ -56,6 +64,7 @@ function App() {
               company=""
               languages={["React","Python", "Nodejs", "GraphQL", "PostgreSQL"]}
               repoLink="https://github.com/yousufmohi/ArithmeticAssist"
+              range=""
             />
           </div>
 
