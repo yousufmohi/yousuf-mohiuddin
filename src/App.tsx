@@ -37,7 +37,7 @@ function App() {
               description={"worked on address validation tools and backend optimization"}
               languages={["JavaScript", "C#", ".NET"]}
               repoLink=""
-              range="Sep - Dec.2024"
+              range="Sep - Dec. 2024"
             />
             <ExperienceItem
               title="web developer"
@@ -45,7 +45,7 @@ function App() {
               description={"website maintenance and designed new features"}
               languages={["JavaScript", "Python"]}
               repoLink=""
-              range="Jun - Aug.2024"
+              range="Jun - Aug. 2024"
             />
           </div>
           <h1 className={` ${darkMode ? "text-[#959290]" : "text-black"}  text-xl mt-6 mb-4 `}>Projects</h1>
