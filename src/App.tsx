@@ -63,7 +63,7 @@ function App() {
               description={"hackathon project for cuHacking 6"}
               company=""
               languages={["React","Python", "Nodejs", "GraphQL", "PostgreSQL"]}
-              repoLink="https://github.com/yousufmohi/ArithmeticAssist"
+              repoLink="https://github.com/yousufmohi/Haven"
               range=""
             />
           </div>
