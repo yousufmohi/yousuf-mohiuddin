@@ -34,7 +34,7 @@ function App() {
               <ExperienceItem
               title="software developer intern"
               company="info-tech research group"
-              description={"working on the IT diagostics team"}
+              description={"working on the IT diagnostics team"}
               languages={["Ruby on Rails"]}
               repoLink=""
               range="Sep. 2025 - present"
