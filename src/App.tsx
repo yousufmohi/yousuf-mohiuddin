@@ -31,10 +31,26 @@ function App() {
       <div className="mt-2">
       <h1 className={` ${darkMode ? "text-[#959290]" : "text-black"}  text-xl mt-6 mb-4 `}>Experience</h1>
       <div className="grid gap-4">
+              <ExperienceItem
+              title="software developer intern"
+              company="info-tech research group"
+              description={"working on the IT diagostics team"}
+              languages={["Ruby on Rails"]}
+              repoLink=""
+              range="Sep. 2025 - present"
+            />
+              <ExperienceItem
+              title="software developer intern"
+              company="descartes systems"
+              description={"worked on sso authentication and IT automation tooling"}
+              languages={["C#", "PostgreSQL", ".NET"]}
+              repoLink=""
+              range="May - Aug. 2025"
+            />
             <ExperienceItem
               title="software developer intern"
               company="descartes systems"
-              description={"worked on address validation tools and backend optimization"}
+              description={"worked on geocoding tools and backend optimization"}
               languages={["JavaScript", "C#", ".NET"]}
               repoLink=""
               range="Sep - Dec. 2024"
